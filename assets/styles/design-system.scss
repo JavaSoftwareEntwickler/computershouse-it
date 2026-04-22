@@ -456,9 +456,9 @@ section {
   }
 
   .logo-img {
-    height: 54px;
+    height: 60px;
     width: auto;
-    max-width: 240px;
+    max-width: 264px;
     cursor: pointer;
     transition: transform 0.3s ease;
     display: block;
@@ -538,7 +538,7 @@ section {
     }
 
     .logo-img {
-      height: 54px;
+      height: 60px;
     }
   }
 }
@@ -585,8 +585,8 @@ section {
 
 @media (max-width: 480px) {
   .navbar .logo-img {
-    height: 54px;
-    max-width: 240px;
+    height: 60px;
+    max-width: 264px;
   }
 }
 
