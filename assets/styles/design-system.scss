@@ -95,6 +95,7 @@ $space-xl: 8rem;
 .section-title.center {
   border-left: none;
   padding-left: 0;
+
   &:after {
     content: '';
     display: block;
@@ -118,6 +119,7 @@ $space-xl: 8rem;
   display: flex;
   align-items: center;
   justify-content: center;
+
   img {
     max-width: 120px;
     max-height: 50px;
@@ -320,6 +322,7 @@ section {
     .card-visual img {
       transform: scale(1.05);
     }
+
     .icon-overlay {
       transform: translateY(-5px) scale(1.1);
       background-color: $primary-green;
@@ -453,9 +456,9 @@ section {
   }
 
   .logo-img {
-    height: 45px;
+    height: 54px;
     width: auto;
-    max-width: 200px;
+    max-width: 240px;
     cursor: pointer;
     transition: transform 0.3s ease;
     display: block;
@@ -528,12 +531,14 @@ section {
   .navbar {
     .nav-links {
       gap: 1.25rem;
+
       a {
         font-size: 0.875rem;
       }
     }
+
     .logo-img {
-      height: 40px;
+      height: 54px;
     }
   }
 }
@@ -580,8 +585,8 @@ section {
 
 @media (max-width: 480px) {
   .navbar .logo-img {
-    height: 35px;
-    max-width: 160px;
+    height: 54px;
+    max-width: 240px;
   }
 }
 
@@ -692,11 +697,16 @@ section {
   &.bg-light {
     background-color: $light-grey;
   }
-  
+
   &.bg-dark {
     background-color: $deep-black;
     color: $white;
-    h1, h2, h3 { color: $white; }
+
+    h1,
+    h2,
+    h3 {
+      color: $white;
+    }
   }
 }
 
